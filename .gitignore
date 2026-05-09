@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.flaskenv
+
+# Databases
+*.sqlite3
+*.db
+
+# PostgreSQL (local data if using Docker volumes in-repo)
+pg_data/
+
+# OS and Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Static and Templates
+# (Only ignore if you use a build tool like tailwind/webpack)
+# node_modules/
+
+# Logs and temporary files
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
